@@ -1,34 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import { StyledEngineProvider } from '@mui/material/styles'
+import Root from './pages/Root'
+import Dashboard from './pages/Dashboard'
+import Expenses from './pages/Expenses'
+import Budgets from './pages/Budgets'
+import AddExpense from './pages/AddExpense'
+import AddBudget from './pages/AddBudget'
+import './styles/style.scss'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+function App() {  
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <StyledEngineProvider injectFirst>
+      <Routes>
+        <Route path='/' element={<Root/>}>
+          <Route index element={<Dashboard/>}/>
+          <Route path='expenses' element={<Expenses/>} />
+          <Route path='budgets' element={<Budgets/>} />
+          <Route path='addexpense' element={<AddExpense/>} />
+          <Route path='addbudget' element={<AddBudget/>} />
+        </Route>
+      </Routes>
+    </StyledEngineProvider>
   )
 }
 
