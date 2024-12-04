@@ -1,0 +1,37 @@
+{
+  "budgets": [
+    {
+      "id": 1,
+      "name": "Farmácia",
+      "maxValue": 550,
+      "usedValue": 480,
+      "month": 11,
+      "year": 2024,
+      "icon": "HealthMetrics"
+    },
+    {
+      "name": "Alimentação",
+      "maxValue": 1500,
+      "usedValue": 0,
+      "month": 12,
+      "year": 2024,
+      "icon": "Restaurant"
+    },
+    {
+      "name": "Transporte",
+      "maxValue": 1000,
+      "usedValue": 0,
+      "month": 12,
+      "year": 2024,
+      "icon": "DirectionsBus"
+    },
+    {
+      "name": "Pagamentos",
+      "maxValue": 1300,
+      "usedValue": 350,
+      "month": 12,
+      "year": 2024,
+      "icon": "CreditCard"
+    }
+  ]
+}

@@ -1,7 +1,15 @@
+import Grid from "@mui/material/Grid2"
+
+import HeaderContainer from "../components/HeaderContainer"
+
 function Dashboard() {
   return (
     <div className="tempContainer">
-      Dashboard
+      <Grid container spacing={2.4}>
+        <Grid size={12}>
+          <HeaderContainer title="Dashboard"/>
+        </Grid>
+      </Grid>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 function AddExpense() {
   return (
-    <div>
+    <div className="tempContainer">
       AddExpense
     </div>
   )
