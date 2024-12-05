@@ -2,7 +2,32 @@
   margin-left: 254px;
 }
 
+.main-container {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.list-item {
+  flex: 1;
+}
+
 .iconTable {
   height: 24px;
   width: 24px;
+}
+
+.budget-list-container {
+  display: flex;
+  flex: 1;
+}
+
+.budget-item-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
 }

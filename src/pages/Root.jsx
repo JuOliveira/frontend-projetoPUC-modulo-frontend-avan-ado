@@ -6,7 +6,7 @@ function Root() {
   return (
     <div>
       <Sidebar/>
-      <div>
+      <div className="main-container">
         <Outlet/>
       </div>
     </div>

@@ -10,6 +10,7 @@
       "icon": "HealthMetrics"
     },
     {
+      "id": 2,
       "name": "Alimentação",
       "maxValue": 1500,
       "usedValue": 0,
@@ -18,6 +19,7 @@
       "icon": "Restaurant"
     },
     {
+      "id": 3,
       "name": "Transporte",
       "maxValue": 1000,
       "usedValue": 0,
@@ -26,6 +28,7 @@
       "icon": "DirectionsBus"
     },
     {
+      "id": 4,
       "name": "Pagamentos",
       "maxValue": 1300,
       "usedValue": 350,

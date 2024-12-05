@@ -5,6 +5,7 @@ import AppLogo from '../assets/svg/app-logo.svg?react'
 import CreditCard from '../assets/svg/credit-card.svg?react'
 import Restaurant from '../assets/svg/restaurant.svg?react'
 import DirectionsBus from '../assets/svg/directions-bus.svg?react'
+import HealthMetrics from '../assets/svg/health-metrics.svg?react'
 
 function IconSelector({svg, classname}) {
   const Icons = {
@@ -14,7 +15,8 @@ function IconSelector({svg, classname}) {
     AppLogo,
     CreditCard,
     Restaurant,
-    DirectionsBus
+    DirectionsBus,
+    HealthMetrics
   }
 
   let Icon = Icons[svg]
