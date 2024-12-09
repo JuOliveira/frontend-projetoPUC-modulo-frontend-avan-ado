@@ -90,6 +90,7 @@ function Expenses() {
             columns={columns}
             rowSelection={false}
             hideFooter={false}
+            initialSorting={[{field: 'date', sort: 'asc'}]}
           />
         </Grid>
       </Grid>

@@ -8,6 +8,11 @@ function CustomTable(props) {
         columns={props.columns}
         rowSelection={props.rowSelection}
         hideFooter={props.hideFooter}
+        initialState={{
+          sorting: {
+            sortModel: props.initialSorting,
+          },
+        }}
       />
     </div>
   )

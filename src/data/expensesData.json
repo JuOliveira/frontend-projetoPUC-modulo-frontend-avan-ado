@@ -2,43 +2,971 @@
   "expenses": [
     {
       "id": 1,
-      "name": "Conta de luz",
-      "date": "05/11/2024",
-      "month": 11,
-      "year": 2024,
-      "value": "R$ 189,00",
-      "category": "Pagamentos",
-      "icon": "CreditCard"
-    },
-    {
-      "id": 2,
       "name": "China in Box",
-      "date": "05/11/2024",
-      "month": 11,
+      "date": "2024-01-14",
+      "month": 1,
       "year": 2024,
-      "value": "R$ 75,90",
+      "value": 412.49,
       "category": "Alimentação",
       "icon": "Restaurant"
     },
     {
-      "id": 3,
-      "name": "Táxi",
-      "date": "06/11/2024",
-      "month": 11,
+      "id": 2,
+      "name": "Supermercado",
+      "date": "2024-01-06",
+      "month": 1,
       "year": 2024,
-      "value": "R$ 87,50",
-      "category": "Transporte",
-      "icon": "DirectionsBus"
+      "value": 458.90,
+      "category": "Compras do mês",
+      "icon": "ShoppingCart"
+    },
+    {
+      "id": 3,
+      "name": "Cafeteria",
+      "date": "2024-01-13",
+      "month": 1,
+      "year": 2024,
+      "value": 322.00,
+      "category": "Alimentação",
+      "icon": "Restaurant"
     },
     {
       "id": 4,
-      "name": "Táxi",
-      "date": "01/12/2024",
+      "name": "Supermercado",
+      "date": "2024-01-09",
+      "month": 1,
+      "year": 2024,
+      "value": 67.30,
+      "category": "Compras do mês",
+      "icon": "ShoppingCart"
+    },
+    {
+      "id": 5,
+      "name": "Seguro de carro",
+      "date": "2024-01-03",
+      "month": 1,
+      "year": 2024,
+      "value": 213.40,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 6,
+      "name": "Papelaria",
+      "date": "2024-01-10",
+      "month": 1,
+      "year": 2024,
+      "value": 476.30,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 7,
+      "name": "Restaurante",
+      "date": "2024-01-15",
+      "month": 1,
+      "year": 2024,
+      "value": 276.23,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 8,
+      "name": "Clube",
+      "date": "2024-01-11",
+      "month": 1,
+      "year": 2024,
+      "value": 433.30,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 9,
+      "name": "Seguro de carro",
+      "date": "2024-02-26",
+      "month": 2,
+      "year": 2024,
+      "value": 315.34,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 10,
+      "name": "China in Box",
+      "date": "2024-02-07",
+      "month": 2,
+      "year": 2024,
+      "value": 136.34,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 11,
+      "name": "Mensalidade academia",
+      "date": "2024-02-17",
+      "month": 2,
+      "year": 2024,
+      "value": 318.34,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 12,
+      "name": "Livraria",
+      "date": "2024-02-08",
+      "month": 2,
+      "year": 2024,
+      "value": 59.30,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 13,
+      "name": "Seguro de carro",
+      "date": "2024-02-26",
+      "month": 2,
+      "year": 2024,
+      "value": 74.23,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 14,
+      "name": "Livraria",
+      "date": "2024-02-03",
+      "month": 2,
+      "year": 2024,
+      "value": 392.23,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 15,
+      "name": "Cafeteria",
+      "date": "2024-02-15",
+      "month": 2,
+      "year": 2024,
+      "value": 384.43,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 16,
+      "name": "Aluguel",
+      "date": "2024-02-11",
+      "month": 2,
+      "year": 2024,
+      "value": 300.34,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 17,
+      "name": "Roupas",
+      "date": "2024-03-20",
+      "month": 3,
+      "year": 2024,
+      "value": 420.34,
+      "category": "Gastos gerais",
+      "icon": "ReceiptLong"
+    },
+    {
+      "id": 18,
+      "name": "China in Box",
+      "date": "2024-03-24",
+      "month": 3,
+      "year": 2024,
+      "value": 143.45,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 19,
+      "name": "Restaurante",
+      "date": "2024-03-01",
+      "month": 3,
+      "year": 2024,
+      "value": 154.23,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 20,
+      "name": "Cafeteria",
+      "date": "2024-03-14",
+      "month": 3,
+      "year": 2024,
+      "value": 359.14,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 21,
+      "name": "Livraria",
+      "date": "2024-03-21",
+      "month": 3,
+      "year": 2024,
+      "value": 118.23,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 22,
+      "name": "Supermercado",
+      "date": "2024-03-13",
+      "month": 3,
+      "year": 2024,
+      "value": 416.90,
+      "category": "Compras do mês",
+      "icon": "ShoppingCart"
+    },
+    {
+      "id": 23,
+      "name": "Telefone",
+      "date": "2024-03-16",
+      "month": 3,
+      "year": 2024,
+      "value": 49.90,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 24,
+      "name": "Cinema",
+      "date": "2024-03-28",
+      "month": 3,
+      "year": 2024,
+      "value": 271.23,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 25,
+      "name": "China in Box",
+      "date": "2024-04-17",
+      "month": 4,
+      "year": 2024,
+      "value": 426.24,
+      "category": "Alimentação"
+    },
+    {
+      "id": 26,
+      "name": "Conta de luz",
+      "date": "2024-04-14",
+      "month": 4,
+      "year": 2024,
+      "value": 69.89,
+      "category":"Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 27,
+      "name": "Clube",
+      "date": "2024-04-23",
+      "month": 4,
+      "year": 2024,
+      "value": 326.45,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 28,
+      "name": "Livraria",
+      "date": "2024-04-19",
+      "month": 4,
+      "year": 2024,
+      "value": 163.24,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 29,
+      "name": "Internet",
+      "date": "2024-04-27",
+      "month": 4,
+      "year": 2024,
+      "value": 62.24,
+      "category":"Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 30,
+      "name": "Mensalidade academia",
+      "date": "2024-04-24",
+      "month": 4,
+      "year": 2024,
+      "value": 479.20,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 31,
+      "name": "Pagamento cartão de crédito",
+      "date": "2024-04-09",
+      "month": 4,
+      "year": 2024,
+      "value": 398.48,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 32,
+      "name": "Livraria",
+      "date": "2024-04-25",
+      "month": 4,
+      "year": 2024,
+      "value": 208.89,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 33,
+      "name": "Cinema",
+      "date": "2024-05-28",
+      "month": 5,
+      "year": 2024,
+      "value": 163.45,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 34,
+      "name": "Cafeteria",
+      "date": "2024-05-25",
+      "month": 5,
+      "year": 2024,
+      "value": 421.45,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 35,
+      "name": "Clube",
+      "date": "2024-05-26",
+      "month": 5,
+      "year": 2024,
+      "value": 252.45,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 36,
+      "name": "Conta de luz",
+      "date": "2024-05-10",
+      "month": 5,
+      "year": 2024,
+      "value": 439.34,
+      "category":"Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 37,
+      "name": "Cafeteria",
+      "date": "2024-05-26",
+      "month": 5,
+      "year": 2024,
+      "value": 257.34,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 38,
+      "name": "Cinema",
+      "date": "2024-05-26",
+      "month": 5,
+      "year": 2024,
+      "value": 125.89,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 39,
+      "name": "Supermercado",
+      "date": "2024-05-12",
+      "month": 5,
+      "year": 2024,
+      "value": 36.35,
+      "category":"Compras do mês",
+      "icon": "ShoppingCart"
+    },
+    {
+      "id": 40,
+      "name": "Pagamento de academia",
+      "date": "2024-05-15",
+      "month": 5,
+      "year": 2024,
+      "value": 240.67,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 41,
+      "name": "Cinema",
+      "date": "2024-06-13",
+      "month": 6,
+      "year": 2024,
+      "value": 414.34,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 42,
+      "name": "China in Box",
+      "date": "2024-06-11",
+      "month": 6,
+      "year": 2024,
+      "value": 447.34,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 43,
+      "name": "Conta de luz",
+      "date": "2024-06-23",
+      "month": 6,
+      "year": 2024,
+      "value": 102.24,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 44,
+      "name": "Farmácia",
+      "date": "2024-06-23",
+      "month": 6,
+      "year": 2024,
+      "value": 176.23,
+      "category": "Farmácia",
+      "icon": "HealthMetrics"
+    },
+    {
+      "id": 45,
+      "name": "Telefone",
+      "date": "2024-06-05",
+      "month": 6,
+      "year": 2024,
+      "value": 451.34,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 46,
+      "name": "Aluguel",
+      "date": "2024-06-03",
+      "month": 6,
+      "year": 2024,
+      "value": 332.25,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 47,
+      "name": "Cinema",
+      "date": "2024-06-22",
+      "month": 6,
+      "year": 2024,
+      "value": 486.89,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 48,
+      "name": "Pagamento de academia",
+      "date": "2024-06-24",
+      "month": 6,
+      "year": 2024,
+      "value": 240.90,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 49,
+      "name": "Cinema",
+      "date": "2024-07-05",
+      "month": 7,
+      "year": 2024,
+      "value": 14.48,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 50,
+      "name": "Roupas",
+      "date": "2024-07-20",
+      "month": 7,
+      "year": 2024,
+      "value": 109.43,
+      "category": "Gastos gerais",
+      "icon": "ReceiptLong"
+    },
+    {
+      "id": 51,
+      "name": "Seguro de carro",
+      "date": "2024-07-23",
+      "month": 7,
+      "year": 2024,
+      "value": 309.45,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 52,
+      "name": "Pagamento de academia",
+      "date": "2024-07-14",
+      "month": 7,
+      "year": 2024,
+      "value": 265.45,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 53,
+      "name": "Clube",
+      "date": "2024-07-09",
+      "month": 7,
+      "year": 2024,
+      "value": 95.45,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 54,
+      "name": "Cinema",
+      "date": "2024-07-13",
+      "month": 7,
+      "year": 2024,
+      "value": 163.56,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 55,
+      "name": "Cinema",
+      "date": "2024-07-01",
+      "month": 7,
+      "year": 2024,
+      "value": 471.90,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 56,
+      "name": "Cinema",
+      "date": "2024-07-04",
+      "month": 7,
+      "year": 2024,
+      "value": 420.45,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 57,
+      "name": "Clube",
+      "date": "2024-08-07",
+      "month": 8,
+      "year": 2024,
+      "value": 200.45,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 58,
+      "name": "Aluguel",
+      "date": "2024-08-18",
+      "month": 8,
+      "year": 2024,
+      "value": 12.44,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 59,
+      "name": "Telefone",
+      "date": "2024-08-20",
+      "month": 8,
+      "year": 2024,
+      "value": 317.39,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 60,
+      "name": "Telefone",
+      "date": "2024-08-16",
+      "month": 8,
+      "year": 2024,
+      "value": 465.34,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 61,
+      "name": "Aluguel",
+      "date": "2024-08-06",
+      "month": 8,
+      "year": 2024,
+      "value": 485.46,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 62,
+      "name": "Aluguel",
+      "date": "2024-08-26",
+      "month": 8,
+      "year": 2024,
+      "value": 227.45,
+      "category":"Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 63,
+      "name": "Telefone",
+      "date": "2024-08-14",
+      "month": 8,
+      "year": 2024,
+      "value": 474.34,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 64,
+      "name": "Internet",
+      "date": "2024-08-24",
+      "month": 8,
+      "year": 2024,
+      "value": 309.34,
+      "category":"Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 65,
+      "name": "Livraria",
+      "date": "2024-09-28",
+      "month": 9,
+      "year": 2024,
+      "value": 236.34,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 66,
+      "name": "Pagamento de academia",
+      "date": "2024-09-08",
+      "month": 9,
+      "year": 2024,
+      "value": 250.90,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 67,
+      "name": "Pagamento de academia",
+      "date": "2024-09-01",
+      "month": 9,
+      "year": 2024,
+      "value": 478.90,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 68,
+      "name": "Aluguel",
+      "date": "2024-09-11",
+      "month": 9,
+      "year": 2024,
+      "value": 371.49,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 69,
+      "name": "Pagamento cartão de crédito",
+      "date": "2024-09-19",
+      "month": 9,
+      "year": 2024,
+      "value": 286.90,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 70,
+      "name": "Aluguel",
+      "date": "2024-09-09",
+      "month": 9,
+      "year": 2024,
+      "value": 140.78,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 71,
+      "name": "China in Box",
+      "date": "2024-09-22",
+      "month": 9,
+      "year": 2024,
+      "value": 53.34,
+      "category": "Alimentação"
+    },
+    {
+      "id": 72,
+      "name": "Clube",
+      "date": "2024-09-25",
+      "month": 9,
+      "year": 2024,
+      "value": 315.12,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 73,
+      "name": "Internet",
+      "date": "2024-10-01",
+      "month": 10,
+      "year": 2024,
+      "value": 63.23,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 74,
+      "name": "Conta de luz",
+      "date": "2024-10-23",
+      "month": 10,
+      "year": 2024,
+      "value": 149.90,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 75,
+      "name": "Papelaria",
+      "date": "2024-10-02",
+      "month": 10,
+      "year": 2024,
+      "value": 182.34,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 76,
+      "name": "Roupas",
+      "date": "2024-10-13",
+      "month": 10,
+      "year": 2024,
+      "value": 320.45,
+      "category": "Gastos gerais",
+      "icon": "ReceiptLong"
+    },
+    {
+      "id": 77,
+      "name": "Roupas",
+      "date": "2024-10-07",
+      "month": 10,
+      "year": 2024,
+      "value": 317.34,
+      "category": "Gastos gerais",
+      "icon": "ReceiptLong"
+    },
+    {
+      "id": 78,
+      "name": "Restaurante",
+      "date": "2024-10-27",
+      "month": 10,
+      "year": 2024,
+      "value": 258.56,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 79,
+      "name": "Livraria",
+      "date": "2024-10-06",
+      "month": 10,
+      "year": 2024,
+      "value": 394.34,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 80,
+      "name": "Lanche",
+      "date": "2024-10-28",
+      "month": 10,
+      "year": 2024,
+      "value": 462.45,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 81,
+      "name": "Seguro de carro",
+      "date": "2024-11-20",
+      "month": 11,
+      "year": 2024,
+      "value": 233.56,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 82,
+      "name": "Lanche",
+      "date": "2024-11-06",
+      "month": 11,
+      "year": 2024,
+      "value": 263.87,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 83,
+      "name": "Restaurante",
+      "date": "2024-11-28",
+      "month": 11,
+      "year": 2024,
+      "value": 76.87,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 84,
+      "name": "Lanche",
+      "date": "2024-11-27",
+      "month": 11,
+      "year": 2024,
+      "value": 98.67,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 85,
+      "name": "Supermercado",
+      "date": "2024-11-19",
+      "month": 11,
+      "year": 2024,
+      "value": 46.65,
+      "category": "Compras do mês",
+      "icon": "ShoppingCart"
+    },
+    {
+      "id": 86,
+      "name": "Livraria",
+      "date": "2024-11-17",
+      "month": 11,
+      "year": 2024,
+      "value": 121.65,
+      "category": "Universidade",
+      "icon": "School"
+    },
+    {
+      "id": 87,
+      "name": "Lanche",
+      "date": "2024-11-07",
+      "month": 11,
+      "year": 2024,
+      "value": 344.45,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 88,
+      "name": "Cinema",
+      "date": "2024-11-16",
+      "month": 11,
+      "year": 2024,
+      "value": 24.32,
+      "category": "Cinema",
+      "icon": "LocalMovies"
+    },
+    {
+      "id": 89,
+      "name": "Clube",
+      "date": "2024-12-07",
       "month": 12,
       "year": 2024,
-      "value": "R$ 140,30",
-      "category": "Transporte",
-      "icon": "DirectionsBus"
+      "value": 454.34,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 90,
+      "name": "Farmácia",
+      "date": "2024-12-04",
+      "month": 12,
+      "year": 2024,
+      "value": 235.45,
+      "category": "Farmácia",
+      "icon": "HealthMetrics"
+    },
+    {
+      "id": 91,
+      "name": "Clube",
+      "date": "2024-12-02",
+      "month": 12,
+      "year": 2024,
+      "value": 73.56,
+      "category": "Pagamentos",
+      "icon": "CreditCard"
+    },
+    {
+      "id": 92,
+      "name": "Restaurante",
+      "date": "2024-12-08",
+      "month": 12,
+      "year": 2024,
+      "value": 495.86,
+      "category": "Alimentação",
+      "icon": "Restaurant"
+    },
+    {
+      "id": 93,
+      "name": "Roupas",
+      "date": "2024-12-08",
+      "month": 12,
+      "year": 2024,
+      "value": 435.85,
+      "category": "Gastos gerais",
+      "icon": "ReceiptLong"
+    },
+    {
+      "id": 94,
+      "name": "Farmácia",
+      "date": "2024-12-01",
+      "month": 12,
+      "year": 2024,
+      "value": 250.34,
+      "category": "Farmácia",
+      "icon": "HealthMetrics"
+    },
+    {
+      "id": 95,
+      "name": "Conta de luz",
+      "date": "2024-12-07",
+      "month": 12,
+      "year": 2024,
+      "value": 208.45,
+      "category": "Contas da casa",
+      "icon": "House"
+    },
+    {
+      "id": 96,
+      "name": "Roupas",
+      "date": "2024-12-05",
+      "month": 12,
+      "year": 2024,
+      "value": 423.49,
+      "category":"Gastos gerais",
+      "icon": "ReceiptLong"
+    },
+    {
+      "id": 97,
+      "name": "Conta de água",
+      "date": "2024-12-05",
+      "month": 12,
+      "year": 2024,
+      "value": 98.34,
+      "category":"Contas da casa",
+      "icon": "ReceiptLong"
     }
   ]
 }
