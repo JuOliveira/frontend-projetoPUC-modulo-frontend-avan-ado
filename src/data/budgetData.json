@@ -1,40 +1,457 @@
 {
   "budgets": [
     {
-      "id": 1,
-      "name": "Farmácia",
-      "maxValue": 550,
-      "usedValue": 480,
-      "month": 11,
-      "year": 2024,
-      "icon": "HealthMetrics"
+    "id": 1,
+    "name": "Alimentação",
+    "maxValue": 2664.4,
+    "usedValue": 1010.72,
+    "month": 1,
+    "year": 2024,
+    "icon": "Restaurant"
     },
     {
-      "id": 2,
-      "name": "Alimentação",
-      "maxValue": 1500,
-      "usedValue": 0,
-      "month": 12,
-      "year": 2024,
-      "icon": "Restaurant"
+    "id": 2,
+    "name": "Alimentação",
+    "maxValue": 873.93,
+    "usedValue": 520.77,
+    "month": 2,
+    "year": 2024,
+    "icon": "Restaurant"
     },
     {
-      "id": 3,
-      "name": "Transporte",
-      "maxValue": 1000,
-      "usedValue": 0,
-      "month": 12,
-      "year": 2024,
-      "icon": "DirectionsBus"
+    "id": 3,
+    "name": "Alimentação",
+    "maxValue": 1336.51,
+    "usedValue": 656.82,
+    "month": 3,
+    "year": 2024,
+    "icon": "Restaurant"
     },
     {
-      "id": 4,
-      "name": "Pagamentos",
-      "maxValue": 1300,
-      "usedValue": 350,
-      "month": 12,
-      "year": 2024,
-      "icon": "CreditCard"
+    "id": 4,
+    "name": "Alimentação",
+    "maxValue": 1219.95,
+    "usedValue": 426.24,
+    "month": 4,
+    "year": 2024,
+    "icon": "Restaurant"
+    },
+    {
+    "id": 5,
+    "name": "Alimentação",
+    "maxValue": 1018.47,
+    "usedValue": 678.79,
+    "month": 5,
+    "year": 2024,
+    "icon": "Restaurant"
+    },
+    {
+    "id": 6,
+    "name": "Alimentação",
+    "maxValue": 771.44,
+    "usedValue": 447.34,
+    "month": 6,
+    "year": 2024,
+    "icon": "Restaurant"
+    },
+    {
+    "id": 7,
+    "name": "Alimentação",
+    "maxValue": 122.76,
+    "usedValue": 53.34,
+    "month": 9,
+    "year": 2024,
+    "icon": "Restaurant"
+    },
+    {
+    "id": 8,
+    "name": "Alimentação",
+    "maxValue": 1822.53,
+    "usedValue": 721.01,
+    "month": 10,
+    "year": 2024,
+    "icon": "Restaurant"
+    },
+    {
+    "id": 9,
+    "name": "Alimentação",
+    "maxValue": 2229.06,
+    "usedValue": 783.86,
+    "month": 11,
+    "year": 2024,
+    "icon": "Restaurant"
+    },
+    {
+    "id": 10,
+    "name": "Alimentação",
+    "maxValue": 1422.89,
+    "usedValue": 495.86,
+    "month": 12,
+    "year": 2024,
+    "icon": "Restaurant"
+    },
+    {
+    "id": 11,
+    "name": "Compras do mês",
+    "maxValue": 1391.88,
+    "usedValue": 526.2,
+    "month": 1,
+    "year": 2024,
+    "icon": "ShoppingCart"
+    },
+    {
+    "id": 12,
+    "name": "Compras do mês",
+    "maxValue": 707.24,
+    "usedValue": 416.9,
+    "month": 3,
+    "year": 2024,
+    "icon": "ShoppingCart"
+    },
+    {
+    "id": 13,
+    "name": "Compras do mês",
+    "maxValue": 73.8,
+    "usedValue": 36.35,
+    "month": 5,
+    "year": 2024,
+    "icon": "ShoppingCart"
+    },
+    {
+    "id": 14,
+    "name": "Compras do mês",
+    "maxValue": 123.86,
+    "usedValue": 46.65,
+    "month": 11,
+    "year": 2024,
+    "icon": "ShoppingCart"
+    },
+    {
+    "id": 15,
+    "name": "Pagamentos",
+    "maxValue": 1694.46,
+    "usedValue": 646.7,
+    "month": 1,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 16,
+    "name": "Pagamentos",
+    "maxValue": 1630.91,
+    "usedValue": 707.91,
+    "month": 2,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 17,
+    "name": "Pagamentos",
+    "maxValue": 139.62,
+    "usedValue": 49.9,
+    "month": 3,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 18,
+    "name": "Pagamentos",
+    "maxValue": 2935.09,
+    "usedValue": 1204.13,
+    "month": 4,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 19,
+    "name": "Pagamentos",
+    "maxValue": 784.45,
+    "usedValue": 493.12,
+    "month": 5,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 20,
+    "name": "Pagamentos",
+    "maxValue": 2069.9,
+    "usedValue": 692.24,
+    "month": 6,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 21,
+    "name": "Pagamentos",
+    "maxValue": 1540.81,
+    "usedValue": 670.35,
+    "month": 7,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 22,
+    "name": "Pagamentos",
+    "maxValue": 4333.43,
+    "usedValue": 1457.52,
+    "month": 8,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 23,
+    "name": "Pagamentos",
+    "maxValue": 3439.68,
+    "usedValue": 1331.82,
+    "month": 9,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 24,
+    "name": "Pagamentos",
+    "maxValue": 619.22,
+    "usedValue": 233.56,
+    "month": 11,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 25,
+    "name": "Pagamentos",
+    "maxValue": 1036.49,
+    "usedValue": 527.9,
+    "month": 12,
+    "year": 2024,
+    "icon": "CreditCard"
+    },
+    {
+    "id": 26,
+    "name": "Universidade",
+    "maxValue": 1213.23,
+    "usedValue": 476.3,
+    "month": 1,
+    "year": 2024,
+    "icon": "School"
+    },
+    {
+    "id": 27,
+    "name": "Universidade",
+    "maxValue": 1300.31,
+    "usedValue": 451.53,
+    "month": 2,
+    "year": 2024,
+    "icon": "School"
+    },
+    {
+    "id": 28,
+    "name": "Universidade",
+    "maxValue": 352.41,
+    "usedValue": 118.23,
+    "month": 3,
+    "year": 2024,
+    "icon": "School"
+    },
+    {
+    "id": 29,
+    "name": "Universidade",
+    "maxValue": 731.75,
+    "usedValue": 372.13,
+    "month": 4,
+    "year": 2024,
+    "icon": "School"
+    },
+    {
+    "id": 30,
+    "name": "Universidade",
+    "maxValue": 634.25,
+    "usedValue": 236.34,
+    "month": 9,
+    "year": 2024,
+    "icon": "School"
+    },
+    {
+    "id": 31,
+    "name": "Universidade",
+    "maxValue": 1715.85,
+    "usedValue": 576.68,
+    "month": 10,
+    "year": 2024,
+    "icon": "School"
+    },
+    {
+    "id": 32,
+    "name": "Universidade",
+    "maxValue": 209.76,
+    "usedValue": 121.65,
+    "month": 11,
+    "year": 2024,
+    "icon": "School"
+    },
+    {
+    "id": 33,
+    "name": "Contas da casa",
+    "maxValue": 846.08,
+    "usedValue": 300.34,
+    "month": 2,
+    "year": 2024,
+    "icon": "House"
+    },
+    {
+    "id": 34,
+    "name": "Contas da casa",
+    "maxValue": 374.96,
+    "usedValue": 132.13,
+    "month": 4,
+    "year": 2024,
+    "icon": "House"
+    },
+    {
+    "id": 35,
+    "name": "Contas da casa",
+    "maxValue": 688.96,
+    "usedValue": 439.34,
+    "month": 5,
+    "year": 2024,
+    "icon": "House"
+    },
+    {
+    "id": 36,
+    "name": "Contas da casa",
+    "maxValue": 691.73,
+    "usedValue": 434.49,
+    "month": 6,
+    "year": 2024,
+    "icon": "House"
+    },
+    {
+    "id": 37,
+    "name": "Contas da casa",
+    "maxValue": 2151.28,
+    "usedValue": 1034.69,
+    "month": 8,
+    "year": 2024,
+    "icon": "House"
+    },
+    {
+    "id": 38,
+    "name": "Contas da casa",
+    "maxValue": 1287.61,
+    "usedValue": 512.27,
+    "month": 9,
+    "year": 2024,
+    "icon": "House"
+    },
+    {
+    "id": 39,
+    "name": "Contas da casa",
+    "maxValue": 494.99,
+    "usedValue": 213.13,
+    "month": 10,
+    "year": 2024,
+    "icon": "House"
+    },
+    {
+    "id": 40,
+    "name": "Contas da casa",
+    "maxValue": 866.07,
+    "usedValue": 306.79,
+    "month": 12,
+    "year": 2024,
+    "icon": "House"
+    },
+    {
+    "id": 41,
+    "name": "Gastos gerais",
+    "maxValue": 703.01,
+    "usedValue": 420.34,
+    "month": 3,
+    "year": 2024,
+    "icon": "ReceiptLong"
+    },
+    {
+    "id": 42,
+    "name": "Gastos gerais",
+    "maxValue": 304.67,
+    "usedValue": 109.43,
+    "month": 7,
+    "year": 2024,
+    "icon": "ReceiptLong"
+    },
+    {
+    "id": 43,
+    "name": "Gastos gerais",
+    "maxValue": 1541.05,
+    "usedValue": 637.79,
+    "month": 10,
+    "year": 2024,
+    "icon": "ReceiptLong"
+    },
+    {
+    "id": 44,
+    "name": "Gastos gerais",
+    "maxValue": 2562.53,
+    "usedValue": 859.34,
+    "month": 12,
+    "year": 2024,
+    "icon": "ReceiptLong"
+    },
+    {
+    "id": 45,
+    "name": "Cinema",
+    "maxValue": 807.22,
+    "usedValue": 271.23,
+    "month": 3,
+    "year": 2024,
+    "icon": "LocalMovies"
+    },
+    {"id": 46,
+    "name": "Cinema",
+    "maxValue": 701.88,
+    "usedValue": 289.34,
+    "month": 5,
+    "year": 2024,
+    "icon": "LocalMovies"
+    },
+    {"id": 47,
+    "name": "Cinema",
+    "maxValue": 2263.75,
+    "usedValue": 901.23,
+    "month": 6,
+    "year": 2024,
+    "icon": "LocalMovies"
+    },
+    {"id": 48,
+    "name": "Cinema",
+    "maxValue": 2489.3,
+    "usedValue": 1070.39,
+    "month": 7,
+    "year": 2024,
+    "icon": "LocalMovies"
+    },
+    {"id": 49,
+    "name": "Cinema",
+    "maxValue": 47.4,
+    "usedValue": 24.32,
+    "month": 11,
+    "year": 2024,
+    "icon": "LocalMovies"
+    },
+    {"id": 50,
+    "name": "Farmácia",
+    "maxValue": 274.84,
+    "usedValue": 176.23,
+    "month": 6,
+    "year": 2024,
+    "icon": "HealthMetrics"
+    },
+    {"id": 51,
+    "name": "Farmácia",
+    "maxValue": 730.96,
+    "usedValue": 485.79,
+    "month": 12,
+    "year": 2024,
+    "icon": "HealthMetrics"
     }
   ]
 }

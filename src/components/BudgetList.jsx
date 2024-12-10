@@ -3,6 +3,7 @@ import { List, ListItem, Pagination, LinearProgress } from "@mui/material"
 
 import IconSelector from "./IconSelector"
 import CustomButton from "./CustomButton"
+import { formatCurrencyValue } from "../utils/dataFormatters"
 
 function BudgetList(props) {
   const [page, setPage] = useState(1)
@@ -28,8 +29,8 @@ function BudgetList(props) {
                 {item.name}
                 <LinearProgress variant="determinate" value={Math.round((item.usedValue / item.maxValue) * 100)}/>
                 <div>
-                  <span>Utilizado: R$ {item.usedValue}</span>
-                  <span>Limite máximo: R$ {item.maxValue}</span>
+                  <span>Utilizado: {formatCurrencyValue(item.usedValue)}</span>
+                  <span>Limite máximo: {formatCurrencyValue(item.maxValue)}</span>
                 </div>
               </div>
               <span>{Math.round((item.usedValue / item.maxValue) * 100)}%</span>

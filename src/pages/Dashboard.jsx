@@ -2,24 +2,25 @@ import { useState, useEffect } from "react"
 import dayjs from "dayjs"
 import Grid from "@mui/material/Grid2"
 import { PieChart, BarChart, LineChart } from "@mui/x-charts"
+import { useSelector, useDispatch } from "react-redux"
 
 import HeaderContainer from "../components/HeaderContainer"
 import CustomTable from "../components/CustomTable"
 import BudgetList from "../components/BudgetList"
 import IconSelector from "../components/IconSelector"
-import expensesData from '../data/expensesData.json'
-import budgetsData from '../data/budgetData.json'
-import { formatPieChartData, formatBarChartData, formatLineChartData } from "../utils/dataFormatters"
+import { formatPieChartData, formatBarChartData, formatLineChartData, formatTableData } from "../utils/dataFormatters"
 
 function Dashboard() {
   const [pieChartData, setPieChartData] = useState(null)
   const [barChartData, setBarChartData] = useState(null)
   const [lineChartData, setLineChartData] = useState(null)
-  const [expenseData, setExpenseData] = useState(null)
-  const [budgetData, setBudgetData] = useState(null)
+  const [currentExpenseData, setCurrentExpenseData] = useState(null)
+  const [currentBudgetData, setCurrentBudgetData] = useState(null)
+  const expensesData = useSelector((state) => state.expenses.data)
+  const budgetsData = useSelector((state) => state.budgets.data)
+  const dispatch = useDispatch()
 
   const renderCategoryCell = (params) => {
-    //console.log("params", params)
     return (
       <div>
         <IconSelector svg={params.row.icon} classname="iconTable"/>
@@ -52,16 +53,20 @@ function Dashboard() {
   ];
 
   useEffect(() => {
-    setPieChartData(formatPieChartData(expensesData.expenses))
-    setBarChartData(formatBarChartData(expensesData.expenses))
-    setLineChartData(formatLineChartData(expensesData.expenses))
+     if (expensesData && expensesData.length !== 0) {
+      setPieChartData(formatPieChartData(expensesData))
+      setBarChartData(formatBarChartData(expensesData))
+      setLineChartData(formatLineChartData(expensesData))
 
-    const expensesMonthData = expensesData.expenses.filter((data) => data.month === (dayjs().month() + 1) && data.year === dayjs().year())
-    setExpenseData(expensesMonthData)
+      const expensesMonthData = expensesData.filter((data) => data.month === (dayjs().month() + 1) && data.year === dayjs().year())
+      setCurrentExpenseData(expensesMonthData)
+    }
 
-    const budgetMonthData = budgetsData.budgets.filter((data) => data.month === (dayjs().month() + 1) && data.year === dayjs().year())
-    setBudgetData(budgetMonthData)
-  }, [])
+    if (budgetsData && budgetsData.length !== 0) {
+      const budgetMonthData = budgetsData.filter((data) => data.month === (dayjs().month() + 1) && data.year === dayjs().year())
+      setCurrentBudgetData(budgetMonthData)
+    }
+  }, [dispatch, expensesData, budgetsData])
 
   return (
     <div className="tempContainer">
@@ -95,7 +100,7 @@ function Dashboard() {
         </Grid>
         <Grid size={6}>
           <CustomTable
-            rows={expenseData} 
+            rows={formatTableData(currentExpenseData)} 
             columns={columns}
             rowSelection={false}
             hideFooter={true}
@@ -115,7 +120,7 @@ function Dashboard() {
           </div>
           <div>
           <BudgetList
-            items={budgetData}
+            items={currentBudgetData}
             itemsPerPage={4}
             hasDelBtn={false}
           />

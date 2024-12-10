@@ -86,8 +86,6 @@ export function formatLineChartData(data) {
   months.forEach((month, index) => {
     const monthData = data.filter(item => dayjs(item.date).month() === index)
 
-    console.log('monthData', monthData)
-
     const dataSum = monthData.reduce((n, {value}) => n + value, 0)
 
     yearData.push(Math.round(dataSum * 100) / 100)
@@ -97,4 +95,29 @@ export function formatLineChartData(data) {
     data: [{data: yearData, label: 'Gastos totais em reais'}],
     labels: [{scaleType: 'point', data: months}]
   }
+}
+
+export function formatTableData(data) {
+  if (data !== null) {
+    let formattedData = []
+
+    data.forEach((item) => {
+      const itemDate = dayjs(item.date).format('DD/MM/YYYY')
+      const itemValue = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(item.value)
+
+      formattedData.push({
+        ...item, 
+        date: itemDate, 
+        value: itemValue
+      })
+    })
+ 
+    return formattedData
+  }
+}
+
+export function formatCurrencyValue(value) {
+  const currencyValue = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(value)
+
+  return currencyValue
 }
