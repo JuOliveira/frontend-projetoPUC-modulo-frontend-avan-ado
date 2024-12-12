@@ -1,0 +1,47 @@
+@use '../abstracts/' as *;
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../../src/assets/fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('../../src/assets/fonts/Roboto-Light.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../../src/assets/fonts/Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../../src/assets/fonts/Roboto-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+html {
+	font-family: $font-primary-regular;
+	font-size: 16px;
+	color: $color-text-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-primary-bold;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+}

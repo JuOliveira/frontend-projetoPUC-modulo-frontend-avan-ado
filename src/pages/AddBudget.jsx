@@ -12,6 +12,7 @@ import CustomCurrencyInput from '../components/form/CustomCurrencyInput'
 import CustomSelectInput from '../components/form/CustomSelectInput'
 import IconSelector from '../components/IconSelector'
 import ModalContainer from '../components/ModalContainer'
+import Card from '../components/Card'
 import { addBudget } from '../features/budgets/budgetsSlice'
 
 function AddBudget() {
@@ -54,59 +55,66 @@ function AddBudget() {
   },[])
 
   return (
-    <div className="tempContainer">
-      <Grid container spacing={2.4}>
+    <div className="content-container">
+      <Grid container rowSpacing={2} columnSpacing={3}>
         <Grid size={12}>
-          <HeaderContainer title="Adicionar orçamento">
-            <CustomButton text="Voltar" onClickFunction={() => navigate(-1)}/>
-          </HeaderContainer>
+          <HeaderContainer title="Adicionar orçamento" hasBackButton={true}/>
         </Grid>
         <Grid size={12}>
-          <p>Novo orçamento</p>
-          <Formik
-            initialValues={{
-              name: '',
-              maxValue: '',
-              icon: '',
-            }}
-            onSubmit={(values) => onFormSubmit(values)}
+          <Card
+            cardClassname="card-container card-full card-center-align"
           >
-            {({
-              values,
-              errors,
-              touched,
-              handleChange,
-              handleBlur,
-              handleSubmit,
-              setFieldValue
-            }) => (
-              <form onSubmit={handleSubmit}>
-                <CustomTextInput
-                  name="name"
-                  label="Orçamento"
-                  hasError={errors.name && touched.name}
-                  value={values.name}
-                  handleChange={handleChange}
-                  handleBlur={handleBlur}
-                />
-                <CustomCurrencyInput
-                  name="maxValue"
-                  value={values.maxValue}
-                  label="Valor máximo"
-                  handleChange={setFieldValue}
-                />
-                <CustomSelectInput
-                  name="icon"
-                  label="Ícone"
-                  value={values.icon}
-                  placeholder="Selecione um ícone"
-                  options={categoryIconsOptions}
-                  handleChange={handleChange}
-                />
-                <CustomButton text="Adicionar" type='submit'/>
-              </form>
-            )}
-          </Formik>
+            <h2>Novo orçamento</h2>
+            <Formik
+              initialValues={{
+                name: '',
+                maxValue: '',
+                icon: '',
+              }}
+              onSubmit={(values) => onFormSubmit(values)}
+            >
+              {({
+                values,
+                handleChange,
+                handleBlur,
+                handleSubmit,
+                setFieldValue
+              }) => (
+                <form onSubmit={handleSubmit} className="form-container">
+                  <CustomTextInput
+                    name="name"
+                    isRequired={true}
+                    label="Orçamento"
+                    value={values.name}
+                    handleChange={handleChange}
+                    handleBlur={handleBlur}
+                    placeholder="Digite o nome do orçamento"
+                  />
+                  <CustomCurrencyInput
+                    name="maxValue"
+                    value={values.maxValue}
+                    isRequired={true}
+                    label="Valor máximo"
+                    handleChange={setFieldValue}
+                  />
+                  <CustomSelectInput
+                    name="icon"
+                    label="Ícone"
+                    isRequired={true}
+                    value={values.icon}
+                    placeholder="Selecione um ícone"
+                    options={categoryIconsOptions}
+                    handleChange={handleChange}
+                  />
+                  <CustomButton 
+                    text="Adicionar" 
+                    type='submit'
+                    btnClassname="button-primary button-primary--medium button-align-center"
+                  />
+                </form>
+              )}
+            </Formik>
+          </Card>
         </Grid>
       </Grid>
       <ModalContainer
@@ -115,7 +123,14 @@ function AddBudget() {
         title={error ? "Ocorreu um erro e a operação não pôde ser realizada" : "Operação realizada com sucesso!"}
         icon={error ? "Cancel" : "CheckCircle"}
       >
-        <CustomButton text="OK" onClickFunction={handleCloseResultModal}/>
+        <div className="modal-btns-container">
+          <CustomButton 
+            text="OK"
+            type="button"
+            onClickFunction={handleCloseResultModal}
+            btnClassname="button-primary button-primary--small button-primary--fullWidth button-marginTop"
+          />
+        </div>
       </ModalContainer>
     </div>
   )

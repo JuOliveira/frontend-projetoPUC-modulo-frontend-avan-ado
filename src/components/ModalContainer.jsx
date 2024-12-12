@@ -7,17 +7,19 @@ function ModalContainer(props) {
     <Dialog
       open={props.open}
       onClose={props.handleClose}
+      className="modal-container"
     >
-      <div>
         <IconButton
           onClick={props.handleClose}
+          className="modal-close-button"
         >
-          <IconSelector svg="Close" classname="button-icon"/>
+          <IconSelector svg="Close" classname="modal-closeBtn-icon"/>
         </IconButton>
-        <IconSelector svg={props.icon} classname={"modal-icon"}/>
-        {props.title}
-        {props.children}
-      </div>
+        <div className="modal-content-container">
+          <IconSelector svg={props.icon} classname="modal-icon"/>
+          <h2>{props.title}</h2>
+          {props.children}
+        </div>
     </Dialog>
   )
 }

@@ -1,11 +1,12 @@
 import { Button } from "@mui/material"
 
 function CustomButton(props) {
-  const { text, onClickFunction } = props
+  const { text, onClickFunction, type, btnClassname } = props
   return (
     <Button
-      type={props.type}
+      type={type}
       onClick={onClickFunction}
+      className={btnClassname}
     >
       {text}
     </Button>

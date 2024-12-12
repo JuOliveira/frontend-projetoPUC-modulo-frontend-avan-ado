@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { List, ListItem, Pagination, LinearProgress } from "@mui/material"
 
 import IconSelector from "./IconSelector"
@@ -7,14 +7,20 @@ import { formatCurrencyValue } from "../utils/dataFormatters"
 
 function BudgetList(props) {
   const [page, setPage] = useState(1)
-  const [numberOfPages] = useState(props.items !== null ? Math.ceil(props.items.length / props.itemsPerPage) : 1)
+  const [numberOfPages, setNumberOfPages] = useState(0)
 
   const handleChange = (_event,value) => {
     setPage(value)
   }
 
+  useEffect(() => {
+    if (props.items && props.items.length !== 0) {
+      setNumberOfPages(Math.ceil(props.items.length / props.itemsPerPage))
+    }
+  }, [props.items, props.itemsPerPage])
+
   return (
-    <div className="budget-list-container">
+    <div className="list-container">
       <List
         className="list"
       >
@@ -23,20 +29,26 @@ function BudgetList(props) {
             key={item.id}
             className="list-item"
           >
-            <div className="budget-item-container">
-              <IconSelector svg={item.icon} classname="icon-svg"/>
+            <div className="list-item-container">
+              <IconSelector svg={item.icon} classname={props.iconSize}/>
               <div className="list-item">
                 {item.name}
-                <LinearProgress variant="determinate" value={Math.round((item.usedValue / item.maxValue) * 100)}/>
-                <div>
-                  <span>Utilizado: {formatCurrencyValue(item.usedValue)}</span>
-                  <span>Limite máximo: {formatCurrencyValue(item.maxValue)}</span>
+                <LinearProgress 
+                  variant="determinate" 
+                  value={Math.round((item.usedValue / item.maxValue) * 100)}
+                  className="list-progress-bar"
+                />
+                <div className="progress-value-container">
+                  <span className="progress-value-text">Utilizado: {formatCurrencyValue(item.usedValue)}</span>
+                  <span className="progress-value-text">Limite máximo: {formatCurrencyValue(item.maxValue)}</span>
                 </div>
               </div>
-              <span>{Math.round((item.usedValue / item.maxValue) * 100)}%</span>
+              <span className="list-item-percentage">{Math.round((item.usedValue / item.maxValue) * 100)}%</span>
               {props.hasDelBtn &&
                 <CustomButton
-                  text="Excluir"
+                  text={<span className="button-text"><IconSelector svg="DeleteForever" classname="button-icon"/>Excluir</span>}
+                  type="button"
+                  btnClassname="button-primary button-primary--small"
                   onClickFunction={() => props.delFunction(item.id)}
                 />
               }
@@ -44,14 +56,14 @@ function BudgetList(props) {
           </ListItem>
         ))}
       </List>
-      <div>
-        {numberOfPages > 1 &&
+      <div className="pagination-container">
           <Pagination
             count={numberOfPages}
             page={page}
             onChange={handleChange}
+            showFirstButton
+            showLastButton
           />
-        }
       </div>
     </div>
   )

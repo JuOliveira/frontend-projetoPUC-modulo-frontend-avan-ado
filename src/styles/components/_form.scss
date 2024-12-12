@@ -1,0 +1,67 @@
+@use "../abstracts/" as *;
+
+.form-container {
+  width: 480px;
+}
+
+.form-input-container {
+  margin: 16px 0;
+}
+
+.form-textInput {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid $color-input-border;
+  height: 50px;
+  padding: 16px;
+  outline: none;
+  font-family: $font-primary-regular;
+  font-size: 16px;
+
+  &:focus {
+    border-color: $color-input-focus;
+  }
+
+}
+
+.form-selectInput {
+  width: 100%;
+  border-radius: 30px;
+  height: 50px;
+
+  &:focus {
+    border-color: $color-input-focus;
+  }
+  &.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: $color-input-focus;
+    border-width: 1px;
+  }
+}
+
+.form-input-label {
+  font-family: $font-primary-bold;
+  font-size: 14px;
+}
+
+.option-icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 16px;
+}
+
+.icon-option {
+  height: 40px;
+  width: 40px;
+}
+
+.select-option {
+  display: flex;
+  align-items: center;
+}
+
+.select-input-option {
+  &:hover {
+    background-color: $color-input-optionBgHover;
+    color: $color-input-textHover;
+  }
+}

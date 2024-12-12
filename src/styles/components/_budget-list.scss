@@ -1,0 +1,81 @@
+@use "../abstracts/" as *;
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+.list-item {
+  flex: 1;
+  padding: 5px 30px;
+
+}
+
+.list-icon {
+  height: 72px;
+  width: 72px;
+}
+
+.dashboard-list-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.list-item-percentage {
+  padding: 0 30px 0 10px;
+}
+
+.list-progress-bar {
+  height: 10px;
+  border-radius: 30px;
+  background-color: $color-progressBar-bg2;
+
+}
+
+.MuiLinearProgress-barColorPrimary  {
+  background-color: $color-progressBar-bg1;
+}
+
+.progress-value-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-value-text {
+  font-size: 14px;
+}
+
+.pagination-container {
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+
+  .MuiPaginationItem-root.Mui-selected {
+    background-color: $color-listPagination-bgSelected;
+    color: $color-listPagination-textSelected;
+  }
+
+  .MuiPaginationItem-root {
+    border: 1px solid $color-listPagination-border;
+
+    &:hover {
+      border-color: $color-listPagination-borderHover;
+      color: $color-listPagination-textHover;
+      background-color: $color-listPagination-bgSHover;
+    }
+  }
+}

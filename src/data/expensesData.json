@@ -8,7 +8,7 @@
       "year": 2024,
       "value": 412.49,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "year": 2024,
       "value": 458.90,
       "category": "Compras do mês",
-      "icon": "ShoppingCart"
+      "icon": "CategoryIcon17"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "year": 2024,
       "value": 322.00,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "year": 2024,
       "value": 67.30,
       "category": "Compras do mês",
-      "icon": "ShoppingCart"
+      "icon": "CategoryIcon17"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "year": 2024,
       "value": 213.40,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "year": 2024,
       "value": 476.30,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "year": 2024,
       "value": 276.23,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "year": 2024,
       "value": 433.30,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "year": 2024,
       "value": 315.34,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
       "year": 2024,
       "value": 136.34,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
       "year": 2024,
       "value": 318.34,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 12,
@@ -118,7 +118,7 @@
       "year": 2024,
       "value": 59.30,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 13,
@@ -128,7 +128,7 @@
       "year": 2024,
       "value": 74.23,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 14,
@@ -138,7 +138,7 @@
       "year": 2024,
       "value": 392.23,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 15,
@@ -148,7 +148,7 @@
       "year": 2024,
       "value": 384.43,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 16,
@@ -158,7 +158,7 @@
       "year": 2024,
       "value": 300.34,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 17,
@@ -168,7 +168,7 @@
       "year": 2024,
       "value": 420.34,
       "category": "Gastos gerais",
-      "icon": "ReceiptLong"
+      "icon": "CategoryIcon14"
     },
     {
       "id": 18,
@@ -178,7 +178,7 @@
       "year": 2024,
       "value": 143.45,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 19,
@@ -188,7 +188,7 @@
       "year": 2024,
       "value": 154.23,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 20,
@@ -198,7 +198,7 @@
       "year": 2024,
       "value": 359.14,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 21,
@@ -208,7 +208,7 @@
       "year": 2024,
       "value": 118.23,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 22,
@@ -218,7 +218,7 @@
       "year": 2024,
       "value": 416.90,
       "category": "Compras do mês",
-      "icon": "ShoppingCart"
+      "icon": "CategoryIcon17"
     },
     {
       "id": 23,
@@ -228,7 +228,7 @@
       "year": 2024,
       "value": 49.90,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 24,
@@ -238,7 +238,7 @@
       "year": 2024,
       "value": 271.23,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 25,
@@ -247,7 +247,8 @@
       "month": 4,
       "year": 2024,
       "value": 426.24,
-      "category": "Alimentação"
+      "category": "Alimentação",
+      "icon": "CategoryIcon15"
     },
     {
       "id": 26,
@@ -257,7 +258,7 @@
       "year": 2024,
       "value": 69.89,
       "category":"Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 27,
@@ -267,7 +268,7 @@
       "year": 2024,
       "value": 326.45,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 28,
@@ -277,7 +278,7 @@
       "year": 2024,
       "value": 163.24,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 29,
@@ -287,7 +288,7 @@
       "year": 2024,
       "value": 62.24,
       "category":"Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 30,
@@ -297,7 +298,7 @@
       "year": 2024,
       "value": 479.20,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 31,
@@ -307,7 +308,7 @@
       "year": 2024,
       "value": 398.48,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 32,
@@ -317,7 +318,7 @@
       "year": 2024,
       "value": 208.89,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 33,
@@ -327,7 +328,7 @@
       "year": 2024,
       "value": 163.45,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 34,
@@ -337,7 +338,7 @@
       "year": 2024,
       "value": 421.45,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 35,
@@ -347,7 +348,7 @@
       "year": 2024,
       "value": 252.45,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 36,
@@ -357,7 +358,7 @@
       "year": 2024,
       "value": 439.34,
       "category":"Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 37,
@@ -367,7 +368,7 @@
       "year": 2024,
       "value": 257.34,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 38,
@@ -377,7 +378,7 @@
       "year": 2024,
       "value": 125.89,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 39,
@@ -387,7 +388,7 @@
       "year": 2024,
       "value": 36.35,
       "category":"Compras do mês",
-      "icon": "ShoppingCart"
+      "icon": "CategoryIcon17"
     },
     {
       "id": 40,
@@ -397,7 +398,7 @@
       "year": 2024,
       "value": 240.67,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 41,
@@ -407,7 +408,7 @@
       "year": 2024,
       "value": 414.34,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 42,
@@ -417,7 +418,7 @@
       "year": 2024,
       "value": 447.34,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 43,
@@ -427,7 +428,7 @@
       "year": 2024,
       "value": 102.24,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 44,
@@ -437,7 +438,7 @@
       "year": 2024,
       "value": 176.23,
       "category": "Farmácia",
-      "icon": "HealthMetrics"
+      "icon": "CategoryIcon9"
     },
     {
       "id": 45,
@@ -447,7 +448,7 @@
       "year": 2024,
       "value": 451.34,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 46,
@@ -457,7 +458,7 @@
       "year": 2024,
       "value": 332.25,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 47,
@@ -467,7 +468,7 @@
       "year": 2024,
       "value": 486.89,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 48,
@@ -477,7 +478,7 @@
       "year": 2024,
       "value": 240.90,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 49,
@@ -487,7 +488,7 @@
       "year": 2024,
       "value": 14.48,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 50,
@@ -497,7 +498,7 @@
       "year": 2024,
       "value": 109.43,
       "category": "Gastos gerais",
-      "icon": "ReceiptLong"
+      "icon": "CategoryIcon14"
     },
     {
       "id": 51,
@@ -507,7 +508,7 @@
       "year": 2024,
       "value": 309.45,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 52,
@@ -517,7 +518,7 @@
       "year": 2024,
       "value": 265.45,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 53,
@@ -527,7 +528,7 @@
       "year": 2024,
       "value": 95.45,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 54,
@@ -537,7 +538,7 @@
       "year": 2024,
       "value": 163.56,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 55,
@@ -547,7 +548,7 @@
       "year": 2024,
       "value": 471.90,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 56,
@@ -557,7 +558,7 @@
       "year": 2024,
       "value": 420.45,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 57,
@@ -567,7 +568,7 @@
       "year": 2024,
       "value": 200.45,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 58,
@@ -577,7 +578,7 @@
       "year": 2024,
       "value": 12.44,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 59,
@@ -587,7 +588,7 @@
       "year": 2024,
       "value": 317.39,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 60,
@@ -597,7 +598,7 @@
       "year": 2024,
       "value": 465.34,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 61,
@@ -607,7 +608,7 @@
       "year": 2024,
       "value": 485.46,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 62,
@@ -617,7 +618,7 @@
       "year": 2024,
       "value": 227.45,
       "category":"Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 63,
@@ -627,7 +628,7 @@
       "year": 2024,
       "value": 474.34,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 64,
@@ -637,7 +638,7 @@
       "year": 2024,
       "value": 309.34,
       "category":"Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 65,
@@ -647,7 +648,7 @@
       "year": 2024,
       "value": 236.34,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 66,
@@ -657,7 +658,7 @@
       "year": 2024,
       "value": 250.90,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 67,
@@ -667,7 +668,7 @@
       "year": 2024,
       "value": 478.90,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 68,
@@ -677,7 +678,7 @@
       "year": 2024,
       "value": 371.49,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 69,
@@ -687,7 +688,7 @@
       "year": 2024,
       "value": 286.90,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 70,
@@ -697,7 +698,7 @@
       "year": 2024,
       "value": 140.78,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 71,
@@ -707,7 +708,7 @@
       "year": 2024,
       "value": 53.34,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 72,
@@ -717,7 +718,7 @@
       "year": 2024,
       "value": 315.12,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 73,
@@ -727,7 +728,7 @@
       "year": 2024,
       "value": 63.23,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 74,
@@ -737,7 +738,7 @@
       "year": 2024,
       "value": 149.90,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 75,
@@ -747,7 +748,7 @@
       "year": 2024,
       "value": 182.34,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 76,
@@ -757,7 +758,7 @@
       "year": 2024,
       "value": 320.45,
       "category": "Gastos gerais",
-      "icon": "ReceiptLong"
+      "icon": "CategoryIcon14"
     },
     {
       "id": 77,
@@ -767,7 +768,7 @@
       "year": 2024,
       "value": 317.34,
       "category": "Gastos gerais",
-      "icon": "ReceiptLong"
+      "icon": "CategoryIcon14"
     },
     {
       "id": 78,
@@ -777,7 +778,7 @@
       "year": 2024,
       "value": 258.56,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 79,
@@ -787,7 +788,7 @@
       "year": 2024,
       "value": 394.34,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 80,
@@ -797,7 +798,7 @@
       "year": 2024,
       "value": 462.45,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 81,
@@ -807,7 +808,7 @@
       "year": 2024,
       "value": 233.56,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 82,
@@ -817,7 +818,7 @@
       "year": 2024,
       "value": 263.87,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 83,
@@ -827,7 +828,7 @@
       "year": 2024,
       "value": 76.87,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 84,
@@ -837,7 +838,7 @@
       "year": 2024,
       "value": 98.67,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 85,
@@ -847,7 +848,7 @@
       "year": 2024,
       "value": 46.65,
       "category": "Compras do mês",
-      "icon": "ShoppingCart"
+      "icon": "CategoryIcon17"
     },
     {
       "id": 86,
@@ -857,7 +858,7 @@
       "year": 2024,
       "value": 121.65,
       "category": "Universidade",
-      "icon": "School"
+      "icon": "CategoryIcon20"
     },
     {
       "id": 87,
@@ -867,7 +868,7 @@
       "year": 2024,
       "value": 344.45,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 88,
@@ -877,7 +878,7 @@
       "year": 2024,
       "value": 24.32,
       "category": "Cinema",
-      "icon": "LocalMovies"
+      "icon": "CategoryIcon12"
     },
     {
       "id": 89,
@@ -887,7 +888,7 @@
       "year": 2024,
       "value": 454.34,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 90,
@@ -897,7 +898,7 @@
       "year": 2024,
       "value": 235.45,
       "category": "Farmácia",
-      "icon": "HealthMetrics"
+      "icon": "CategoryIcon9"
     },
     {
       "id": 91,
@@ -907,7 +908,7 @@
       "year": 2024,
       "value": 73.56,
       "category": "Pagamentos",
-      "icon": "CreditCard"
+      "icon": "CategoryIcon1"
     },
     {
       "id": 92,
@@ -917,7 +918,7 @@
       "year": 2024,
       "value": 495.86,
       "category": "Alimentação",
-      "icon": "Restaurant"
+      "icon": "CategoryIcon15"
     },
     {
       "id": 93,
@@ -927,7 +928,7 @@
       "year": 2024,
       "value": 435.85,
       "category": "Gastos gerais",
-      "icon": "ReceiptLong"
+      "icon": "CategoryIcon14"
     },
     {
       "id": 94,
@@ -937,7 +938,7 @@
       "year": 2024,
       "value": 250.34,
       "category": "Farmácia",
-      "icon": "HealthMetrics"
+      "icon": "CategoryIcon9"
     },
     {
       "id": 95,
@@ -947,7 +948,7 @@
       "year": 2024,
       "value": 208.45,
       "category": "Contas da casa",
-      "icon": "House"
+      "icon": "CategoryIcon10"
     },
     {
       "id": 96,
@@ -957,7 +958,7 @@
       "year": 2024,
       "value": 423.49,
       "category":"Gastos gerais",
-      "icon": "ReceiptLong"
+      "icon": "CategoryIcon14"
     },
     {
       "id": 97,
@@ -967,7 +968,7 @@
       "year": 2024,
       "value": 98.34,
       "category":"Contas da casa",
-      "icon": "ReceiptLong"
+      "icon": "CategoryIcon14"
     }
   ]
 }

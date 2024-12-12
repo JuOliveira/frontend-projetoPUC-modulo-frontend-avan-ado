@@ -13,6 +13,7 @@ import CustomSelectInput from '../components/form/CustomSelectInput'
 import CustomCurrencyInput from '../components/form/CustomCurrencyInput'
 import IconSelector from '../components/IconSelector'
 import ModalContainer from '../components/ModalContainer'
+import Card from '../components/Card'
 import { addExpense } from '../features/expenses/expensesSlice'
 import { editBudget } from '../features/budgets/budgetsSlice'
 
@@ -28,13 +29,8 @@ function AddExpense() {
   const onFormSubmit = (values) => {
     const categoryIcon = categoryOptions.filter(option => option.value === values.category)
 
-    console.log('values', values)
-
     const monthBudgets = budgetData.filter((data) => data.month === (dayjs(values.date).month() + 1) && data.year === dayjs(values.date).year())
-    console.log('monthBudgets', monthBudgets)
     const expenseBudget = monthBudgets.filter((item) => item.name === values.category)
-
-    console.log('expenseBudget', expenseBudget)
 
     dispatch(editBudget({
       id: expenseBudget[0].id,
@@ -69,7 +65,7 @@ function AddExpense() {
       const option = {
         id: category.id,
         value: category.name,
-        label: <span><IconSelector svg={category.icon} classname="option-icon"/>{category.name}</span>,
+        label: <span className="select-option"><IconSelector svg={category.icon} classname="option-icon"/>{category.name}</span>,
         icon: category.icon,
       }
 
@@ -80,73 +76,79 @@ function AddExpense() {
   },[categories])
 
   return (
-    <div className="tempContainer">
-      <Grid container spacing={2.4}>
+    <div className="content-container">
+      <Grid container rowSpacing={2} columnSpacing={3}>
         <Grid size={12}>
-          <HeaderContainer title="Adicionar Despesa">
-            <CustomButton text="Voltar" onClickFunction={() => navigate(-1)}/>
-          </HeaderContainer>
+          <HeaderContainer title="Adicionar Despesa" hasBackButton={true}/>
         </Grid>
         <Grid size={12}>
-          <p>Nova Despesa</p>
-          <Formik
-            initialValues={{
-              name: '',
-              date: dayjs(),
-              value: '',
-              category: '',
-            }}
-            onSubmit={(values) => onFormSubmit(values)}
+          <Card
+            cardClassname="card-container card-full card-center-align"
           >
-            {({
-              values,
-              errors,
-              touched,
-              handleChange,
-              handleBlur,
-              handleSubmit,
-              isSubmitting,
-              setFieldValue,
+            <h2>Nova Despesa</h2>
+            <Formik
+              initialValues={{
+                name: '',
+                date: dayjs(),
+                value: '',
+                category: '',
+              }}
+              onSubmit={(values) => onFormSubmit(values)}
+            >
+              {({
+                values,
+                errors,
+                touched,
+                handleChange,
+                handleBlur,
+                handleSubmit,
+                setFieldValue,
 
-            }) => (
-              <form onSubmit={handleSubmit}>
-                <CustomTextInput
-                  name="name"
-                  isRequired={true}
-                  hasError={errors.name && touched.name}
-                  handleChange={handleChange}
-                  handleBlur={handleBlur}
-                  label="Despesa"
-                  value={values.name}
-                  placeholder="Digite o nome da despesa"
-                  validationMsg={errors.name}
-                />
-                <CustomDatePickerInput
-                  name="date"
-                  label="Data"
-                  views={['day','month', 'year']}
-                  value={values.date}
-                  handleChange={handleChange}
-                />
-                <CustomCurrencyInput
-                  name="value"
-                  label="Valor da Despesa"
-                  isRequired={true}
-                  value={values.value}
-                  handleChange={setFieldValue}
-                />
-                <CustomSelectInput
-                  name="category"
-                  value={values.category}
-                  handleChange={handleChange}
-                  label="Categoria"
-                  options={categoryOptions}
-                  placeholder="Selecione a categoria"
-                />
-                <CustomButton text="Adicionar" disabled={isSubmitting} type='submit'/>
-              </form>
-            )}
-          </Formik>
+              }) => (
+                <form onSubmit={handleSubmit} className="form-container">
+                  <CustomTextInput
+                    name="name"
+                    isRequired={true}
+                    hasError={errors.name && touched.name}
+                    handleChange={handleChange}
+                    handleBlur={handleBlur}
+                    label="Despesa"
+                    value={values.name}
+                    placeholder="Digite o nome da despesa"
+                    validationMsg={errors.name}
+                  />
+                  <CustomDatePickerInput
+                    name="date"
+                    label="Data"
+                    views={['day','month', 'year']}
+                    value={values.date}
+                    handleChange={handleChange}
+                  />
+                  <CustomCurrencyInput
+                    name="value"
+                    label="Valor da Despesa"
+                    isRequired={true}
+                    value={values.value}
+                    handleChange={setFieldValue}
+                  />
+                  <CustomSelectInput
+                    name="category"
+                    value={values.category}
+                    isRequired={true}
+                    handleChange={handleChange}
+                    label="Categoria"
+                    options={categoryOptions}
+                    placeholder="Selecione a categoria"
+                  />
+                  <CustomButton 
+                    text="Adicionar" 
+                    type='submit'
+                    btnClassname="button-primary button-primary--medium button-align-center"
+                  />
+                </form>
+              )}
+            </Formik>
+          </Card>
         </Grid>
       </Grid>
       <ModalContainer
@@ -155,7 +157,14 @@ function AddExpense() {
         title={error ? "Ocorreu um erro e a operação não pôde ser realizada" : "Operação realizada com sucesso!"}
         icon={error ? "Cancel" : "CheckCircle"}
       >
-        <CustomButton text="OK" onClickFunction={handleCloseResultModal}/>
+        <div className="modal-btns-container">
+          <CustomButton 
+            text="OK"
+            type="button"
+            onClickFunction={handleCloseResultModal}
+            btnClassname="button-primary button-primary--small button-primary--fullWidth button-marginTop"
+          />
+        </div>
       </ModalContainer>
     </div>
   )

@@ -1,0 +1,69 @@
+@use '../abstracts/' as *;
+
+.MuiDrawer-paper {
+  padding: 24px 8px;
+  margin: 24px;
+  border: 1px solid $color-sidebar-border;
+  border-radius: 30px;
+  height: 95%;
+  width: 208px;
+}
+
+.sidebar-menu-icon {
+  height: 32px;
+  width: 32px;
+  color: $color-sidebar-icon;
+}
+
+.app-logo-icon {
+  height: 48px;
+  width: 48px;
+  color: $color-sidebar-icon;
+}
+
+.sidebar-logo-button.MuiButton-root {
+  text-transform: none;
+  color: $color-sidebar-text;
+  font-family: $font-primary-bold;
+  font-size: 20px;
+}
+
+.sidebar-menu {
+  margin-top: 20px;
+}
+
+.sidebar-menu-text {
+  font-family: $font-primary-medium;
+  font-size: 16px;
+  color: $color-sidebar-text;
+}
+
+.sidebar-menu-item {
+  height: 64px;
+  border-radius: 50px;
+  margin: 8px 0;
+
+  &.Mui-selected, &.Mui-selected:hover {
+    background-color: $color-sidebar-selected;
+
+    .sidebar-menu-text {
+      color: $color-sidebar-textSelected;
+    }
+  
+    .sidebar-menu-icon {
+      color: $color-sidebar-iconSelected;
+    }
+  }
+
+  &:hover {
+    background-color: $color-sidebar-hover;
+
+    .sidebar-menu-text {
+      color: $color-sidebar-textHover;
+    }
+  
+    .sidebar-menu-icon {
+      color: $color-sidebar-iconHover;
+    }
+  }
+}

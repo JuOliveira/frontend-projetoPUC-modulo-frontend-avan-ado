@@ -1,0 +1,42 @@
+@use "../abstracts/" as *;
+
+.table-categoryCell-container {
+  display: flex;
+  align-items: center;
+}
+
+.table-category-icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 16px;
+}
+
+.table {
+  border-radius: 10px;
+  border: 1px solid $color-tableBorder;
+}
+
+.table-header {
+  background-color: $color-tableHeader;
+  font-family: $font-primary-bold;
+  font-size: 16px;
+}
+
+.table-pagination {
+
+  .MuiIconButton-root {
+    border: 1px solid $color-listPagination-border;
+    margin: 0 4px;
+    color: $color-listPagination-text;
+
+    &:hover {
+      background-color: $color-listPagination-bgSHover;
+      color: $color-listPagination-textHover;
+      border-color: $color-listPagination-borderHover;
+    }
+  }
+
+  .MuiIconButton-root.Mui-disabled {
+    background-color: #F8F9FA;
+  }
+}

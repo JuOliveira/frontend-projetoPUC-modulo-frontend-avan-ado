@@ -14,13 +14,14 @@ function CustomCurrencyInput(props) {
   }
 
   return (
-    <div>
-      <InputLabel>
+    <div className="form-input-container">
+      <InputLabel className="form-input-label">
         {props.label}{props.isRequired ? "*" : ""}
       </InputLabel>
       <NumberFormatBase
         name={props.name}
         value={Number(props.value) * 100}
+        required={props.isRequired}
         format={currencyFormatter}
         prefix="R$"
         valueIsNumericString
@@ -28,6 +29,7 @@ function CustomCurrencyInput(props) {
           const val = (parseFloat(values.value)/100)
           props.handleChange(props.name, val)
         }}
+        className="form-textInput"
       />
     </div>
 

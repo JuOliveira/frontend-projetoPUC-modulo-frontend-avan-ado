@@ -26,6 +26,11 @@ import Close from '../assets/svg/close.svg?react'
 import ErrorCircleRounded from '../assets/svg/error-circle-rounded.svg?react'
 import CheckCircle from '../assets/svg/check-circle.svg?react'
 import Cancel from '../assets/svg/cancel.svg?react'
+import KeyboardArrowLeft from '../assets/svg/keyboard-arrow-left.svg?react'
+import AddCard from '../assets/svg/add-card.svg?react'
+import AddChart from '../assets/svg/add-chart.svg?react'
+import CalendarMonth from '../assets/svg/calendar-month.svg?react'
+import DeleteForever from '../assets/svg/delete-forever.svg?react'
 import CategoryIcon0 from '../assets/svg/category-icon-0.svg?react'
 import CategoryIcon1 from '../assets/svg/category-icon-1.svg?react'
 import CategoryIcon2 from '../assets/svg/category-icon-2.svg?react'
@@ -79,6 +84,11 @@ function IconSelector({svg, classname}) {
     ErrorCircleRounded,
     CheckCircle,
     Cancel,
+    KeyboardArrowLeft,
+    AddCard,
+    AddChart,
+    DeleteForever,
+    CalendarMonth,
     CategoryIcon0,
     CategoryIcon1,
     CategoryIcon2,

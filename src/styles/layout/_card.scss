@@ -1,0 +1,50 @@
+@use '../abstracts/' as *;
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-card-bg;
+  border-radius: 30px;
+  border: 1px solid $color-card-border;
+  padding: 20px;
+}
+
+.card-small {
+  height: 250px;
+}
+
+.card-big {
+  height: 100%;
+}
+
+.card-full {
+  height: calc(100vh - 130px);
+}
+
+.card-margin-top {
+  margin-top: 16px;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+.card-title {
+  margin-bottom: 0px;
+}
+
+.card-row-spacing {
+  margin-top: 16px;
+}
+
+.card-center-align {
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-label {
+  font-family: $font-primary-bold;
+}

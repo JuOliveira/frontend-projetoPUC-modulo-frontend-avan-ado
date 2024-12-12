@@ -7,7 +7,7 @@
     "usedValue": 1010.72,
     "month": 1,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 2,
@@ -16,7 +16,7 @@
     "usedValue": 520.77,
     "month": 2,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 3,
@@ -25,7 +25,7 @@
     "usedValue": 656.82,
     "month": 3,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 4,
@@ -34,7 +34,7 @@
     "usedValue": 426.24,
     "month": 4,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 5,
@@ -43,7 +43,7 @@
     "usedValue": 678.79,
     "month": 5,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 6,
@@ -52,7 +52,7 @@
     "usedValue": 447.34,
     "month": 6,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 7,
@@ -61,7 +61,7 @@
     "usedValue": 53.34,
     "month": 9,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 8,
@@ -70,7 +70,7 @@
     "usedValue": 721.01,
     "month": 10,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 9,
@@ -79,7 +79,7 @@
     "usedValue": 783.86,
     "month": 11,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 10,
@@ -88,7 +88,7 @@
     "usedValue": 495.86,
     "month": 12,
     "year": 2024,
-    "icon": "Restaurant"
+    "icon": "CategoryIcon15"
     },
     {
     "id": 11,
@@ -97,7 +97,7 @@
     "usedValue": 526.2,
     "month": 1,
     "year": 2024,
-    "icon": "ShoppingCart"
+    "icon": "CategoryIcon17"
     },
     {
     "id": 12,
@@ -106,7 +106,7 @@
     "usedValue": 416.9,
     "month": 3,
     "year": 2024,
-    "icon": "ShoppingCart"
+    "icon": "CategoryIcon17"
     },
     {
     "id": 13,
@@ -115,7 +115,7 @@
     "usedValue": 36.35,
     "month": 5,
     "year": 2024,
-    "icon": "ShoppingCart"
+    "icon": "CategoryIcon17"
     },
     {
     "id": 14,
@@ -124,7 +124,7 @@
     "usedValue": 46.65,
     "month": 11,
     "year": 2024,
-    "icon": "ShoppingCart"
+    "icon": "CategoryIcon17"
     },
     {
     "id": 15,
@@ -133,7 +133,7 @@
     "usedValue": 646.7,
     "month": 1,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 16,
@@ -142,7 +142,7 @@
     "usedValue": 707.91,
     "month": 2,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 17,
@@ -151,7 +151,7 @@
     "usedValue": 49.9,
     "month": 3,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 18,
@@ -160,7 +160,7 @@
     "usedValue": 1204.13,
     "month": 4,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 19,
@@ -169,7 +169,7 @@
     "usedValue": 493.12,
     "month": 5,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 20,
@@ -178,7 +178,7 @@
     "usedValue": 692.24,
     "month": 6,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 21,
@@ -187,7 +187,7 @@
     "usedValue": 670.35,
     "month": 7,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 22,
@@ -196,7 +196,7 @@
     "usedValue": 1457.52,
     "month": 8,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 23,
@@ -205,7 +205,7 @@
     "usedValue": 1331.82,
     "month": 9,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 24,
@@ -214,7 +214,7 @@
     "usedValue": 233.56,
     "month": 11,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 25,
@@ -223,7 +223,7 @@
     "usedValue": 527.9,
     "month": 12,
     "year": 2024,
-    "icon": "CreditCard"
+    "icon": "CategoryIcon1"
     },
     {
     "id": 26,
@@ -232,7 +232,7 @@
     "usedValue": 476.3,
     "month": 1,
     "year": 2024,
-    "icon": "School"
+    "icon": "CategoryIcon20"
     },
     {
     "id": 27,
@@ -241,7 +241,7 @@
     "usedValue": 451.53,
     "month": 2,
     "year": 2024,
-    "icon": "School"
+    "icon": "CategoryIcon20"
     },
     {
     "id": 28,
@@ -250,7 +250,7 @@
     "usedValue": 118.23,
     "month": 3,
     "year": 2024,
-    "icon": "School"
+    "icon": "CategoryIcon20"
     },
     {
     "id": 29,
@@ -259,7 +259,7 @@
     "usedValue": 372.13,
     "month": 4,
     "year": 2024,
-    "icon": "School"
+    "icon": "CategoryIcon20"
     },
     {
     "id": 30,
@@ -268,7 +268,7 @@
     "usedValue": 236.34,
     "month": 9,
     "year": 2024,
-    "icon": "School"
+    "icon": "CategoryIcon20"
     },
     {
     "id": 31,
@@ -277,7 +277,7 @@
     "usedValue": 576.68,
     "month": 10,
     "year": 2024,
-    "icon": "School"
+    "icon": "CategoryIcon20"
     },
     {
     "id": 32,
@@ -286,7 +286,7 @@
     "usedValue": 121.65,
     "month": 11,
     "year": 2024,
-    "icon": "School"
+    "icon": "CategoryIcon20"
     },
     {
     "id": 33,
@@ -295,7 +295,7 @@
     "usedValue": 300.34,
     "month": 2,
     "year": 2024,
-    "icon": "House"
+    "icon": "CategoryIcon10"
     },
     {
     "id": 34,
@@ -304,7 +304,7 @@
     "usedValue": 132.13,
     "month": 4,
     "year": 2024,
-    "icon": "House"
+    "icon": "CategoryIcon10"
     },
     {
     "id": 35,
@@ -313,7 +313,7 @@
     "usedValue": 439.34,
     "month": 5,
     "year": 2024,
-    "icon": "House"
+    "icon": "CategoryIcon10"
     },
     {
     "id": 36,
@@ -322,7 +322,7 @@
     "usedValue": 434.49,
     "month": 6,
     "year": 2024,
-    "icon": "House"
+    "icon": "CategoryIcon10"
     },
     {
     "id": 37,
@@ -331,7 +331,7 @@
     "usedValue": 1034.69,
     "month": 8,
     "year": 2024,
-    "icon": "House"
+    "icon": "CategoryIcon10"
     },
     {
     "id": 38,
@@ -340,7 +340,7 @@
     "usedValue": 512.27,
     "month": 9,
     "year": 2024,
-    "icon": "House"
+    "icon": "CategoryIcon10"
     },
     {
     "id": 39,
@@ -349,7 +349,7 @@
     "usedValue": 213.13,
     "month": 10,
     "year": 2024,
-    "icon": "House"
+    "icon": "CategoryIcon10"
     },
     {
     "id": 40,
@@ -358,7 +358,7 @@
     "usedValue": 306.79,
     "month": 12,
     "year": 2024,
-    "icon": "House"
+    "icon": "CategoryIcon10"
     },
     {
     "id": 41,
@@ -367,7 +367,7 @@
     "usedValue": 420.34,
     "month": 3,
     "year": 2024,
-    "icon": "ReceiptLong"
+    "icon": "CategoryIcon14"
     },
     {
     "id": 42,
@@ -376,7 +376,7 @@
     "usedValue": 109.43,
     "month": 7,
     "year": 2024,
-    "icon": "ReceiptLong"
+    "icon": "CategoryIcon14"
     },
     {
     "id": 43,
@@ -385,7 +385,7 @@
     "usedValue": 637.79,
     "month": 10,
     "year": 2024,
-    "icon": "ReceiptLong"
+    "icon": "CategoryIcon14"
     },
     {
     "id": 44,
@@ -394,7 +394,7 @@
     "usedValue": 859.34,
     "month": 12,
     "year": 2024,
-    "icon": "ReceiptLong"
+    "icon": "CategoryIcon14"
     },
     {
     "id": 45,
@@ -403,7 +403,7 @@
     "usedValue": 271.23,
     "month": 3,
     "year": 2024,
-    "icon": "LocalMovies"
+    "icon": "CategoryIcon12"
     },
     {"id": 46,
     "name": "Cinema",
@@ -411,7 +411,7 @@
     "usedValue": 289.34,
     "month": 5,
     "year": 2024,
-    "icon": "LocalMovies"
+    "icon": "CategoryIcon12"
     },
     {"id": 47,
     "name": "Cinema",
@@ -419,7 +419,7 @@
     "usedValue": 901.23,
     "month": 6,
     "year": 2024,
-    "icon": "LocalMovies"
+    "icon": "CategoryIcon12"
     },
     {"id": 48,
     "name": "Cinema",
@@ -427,7 +427,7 @@
     "usedValue": 1070.39,
     "month": 7,
     "year": 2024,
-    "icon": "LocalMovies"
+    "icon": "CategoryIcon12"
     },
     {"id": 49,
     "name": "Cinema",
@@ -435,7 +435,7 @@
     "usedValue": 24.32,
     "month": 11,
     "year": 2024,
-    "icon": "LocalMovies"
+    "icon": "CategoryIcon12"
     },
     {"id": 50,
     "name": "Farmácia",
@@ -443,7 +443,7 @@
     "usedValue": 176.23,
     "month": 6,
     "year": 2024,
-    "icon": "HealthMetrics"
+    "icon": "CategoryIcon9"
     },
     {"id": 51,
     "name": "Farmácia",
@@ -451,7 +451,7 @@
     "usedValue": 485.79,
     "month": 12,
     "year": 2024,
-    "icon": "HealthMetrics"
+    "icon": "CategoryIcon9"
     }
   ]
 }

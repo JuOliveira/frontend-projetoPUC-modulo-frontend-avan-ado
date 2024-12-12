@@ -1,0 +1,18 @@
+@use '../abstracts/' as *;
+
+.header-container {
+  height: 65px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: $color-header-bg;
+  border: 1px solid $color-header-border;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.header-buttons-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}

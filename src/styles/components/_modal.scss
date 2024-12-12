@@ -1,0 +1,64 @@
+@use "../abstracts/" as *;
+
+.modal-container {
+  .MuiDialog-paper{
+    width: 520px;
+    height: 420px;
+    padding: 10px;
+    border: 1px solid $color-modal-border;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.modal-close-button {
+  display: flex;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: $color-modal-btnHover;
+
+    .modal-closeBtn-icon {
+      color: $color-modal-iconHover;
+    }
+  }
+}
+
+.modal-closeBtn-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.modal-content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 340px;
+  align-items: center;
+}
+
+.modal-icon {
+  width: 96px;
+  height: 96px;
+  color: $color-modal-icon;
+  margin-bottom: 16px;
+}
+
+.modal-text {
+  text-align: center;
+  font-size: 14px;
+  margin: 16px 0;
+}
+
+.modal-btns-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+}

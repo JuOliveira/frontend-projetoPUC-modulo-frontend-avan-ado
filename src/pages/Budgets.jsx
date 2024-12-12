@@ -9,8 +9,10 @@ import CustomButton from "../components/CustomButton"
 import CustomDatePicker from "../components/CustomDatePicker"
 import BudgetList from '../components/BudgetList'
 import ModalContainer from '../components/ModalContainer'
+import Card from '../components/Card'
 import { deleteBudget } from '../features/budgets/budgetsSlice'
 import { deleteExpense } from '../features/expenses/expensesSlice'
+import IconSelector from '../components/IconSelector'
 
 function Budgets() {
   const navigate = useNavigate()
@@ -62,28 +64,37 @@ function Budgets() {
   }, [dateValue, budgetsData])
 
   return (
-    <div className="tempContainer">
-      <Grid container spacing={2.4}>
+    <div className="content-container">
+      <Grid container rowSpacing={2} columnSpacing={3}>
         <Grid size={12}>
-          <HeaderContainer title="Orçamentos">
-            <CustomDatePicker 
-              views={['month', 'year']}
-              value={dateValue}
-              setDateValue={setDateValue}
-            />
-            <CustomButton 
-              text="Novo orçamento"
-              onClickFunction={() => navigate('/addbudget')}
-            />
+          <HeaderContainer title="Orçamentos" hasBackButton={false}>
+            <div className="header-buttons-container">
+              <CustomDatePicker 
+                views={['month', 'year']}
+                value={dateValue}
+                setDateValue={setDateValue}
+              />
+              <CustomButton 
+                text={<span className="button-text"><IconSelector svg="AddChart" classname="button-icon"/>Novo orçamento</span>}
+                type="button"
+                btnClassname="button-primary button-primary--small"
+                onClickFunction={() => navigate('/addbudget')}
+              />
+            </div>
           </HeaderContainer>
         </Grid>
         <Grid size={12}>
-          <BudgetList
-            items={monthBudgetData}
-            itemsPerPage={10}
-            hasDelBtn={true}
-            delFunction={handleOpenConfirmModal}
-          />
+          <Card
+            cardClassname="card-container card-full"
+          >
+            <BudgetList
+              items={monthBudgetData}
+              itemsPerPage={10}
+              hasDelBtn={true}
+              delFunction={handleOpenConfirmModal}
+              iconSize="list-icon"
+            />
+          </Card>
         </Grid>
       </Grid>
       <ModalContainer
@@ -92,12 +103,22 @@ function Budgets() {
         title="Excluir Orçamento?"
         icon="ErrorCircleRounded"
       >
-        <div>
-          <p>Tem certeza que deseja excluir o orçamento? Esta operação não pode ser revertida. Atenção: todas as despesas associadas a este orçamento
-            também serão excluídas!
-          </p>
-          <CustomButton text="Excluir" onClickFunction={() => handleDeleteBudget(confirmModal.id)}/>
-          <CustomButton text="Cancelar" onClickFunction={handleCloseConfirmModal}/>
+        <p className="modal-text">Tem certeza que deseja excluir o orçamento? Esta operação não pode ser revertida. <b>Atenção: todas as despesas associadas a este orçamento
+        também serão excluídas!</b>
+        </p>
+        <div className="modal-btns-container">
+          <CustomButton 
+            text="Excluir"
+            type="button"
+            onClickFunction={() => handleDeleteBudget(confirmModal.id)}
+            btnClassname="button-primary button-primary--small button-primary--fullWidth"
+          />
+          <CustomButton 
+            text="Cancelar"
+            type="button"
+            onClickFunction={handleCloseConfirmModal}
+            btnClassname="button-secondary button-secondary--small button-secondary--fullWidth button-margin-top"
+          />
         </div>
       </ModalContainer>
       <ModalContainer
@@ -106,7 +127,14 @@ function Budgets() {
         title={error ? "Ocorreu um erro e a operação não pôde ser realizada" : "Operação realizada com sucesso!"}
         icon={error ? "Cancel" : "CheckCircle"}
       >
-        <CustomButton text="OK" onClickFunction={handleCloseResultModal}/>
+        <div className="modal-btns-container">
+          <CustomButton 
+            text="OK"
+            type="button"
+            onClickFunction={handleCloseResultModal}
+            btnClassname="button-primary button-primary--small button-primary--fullWidth button-marginTop"
+          />
+        </div>
       </ModalContainer>
     </div>
   )

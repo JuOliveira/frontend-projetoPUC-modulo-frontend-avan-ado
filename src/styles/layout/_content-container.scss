@@ -1,34 +1,22 @@
-.tempContainer {
-  margin-left: 254px;
-  flex: 1;
+@use '../abstracts/' as *;
+
+#root {
+  height: 100vh;
+}
+
+html {
+  background-color: $color-background;
 }
 
 .main-container {
   display: flex;
+  height: 100vh;
+  padding-top: 24px;
+  padding-right: 24px;
+  background-color: $color-background;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.list-item {
-  flex: 1;
-}
-
-.iconTable {
-  height: 24px;
-  width: 24px;
-}
-
-.budget-list-container {
-  display: flex;
-  flex: 1;
-}
-
-.budget-item-container {
-  display: flex;
-  flex-direction: row;
+.content-container {
+  margin-left: 254px;
   flex: 1;
 }

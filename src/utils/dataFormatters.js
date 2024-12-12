@@ -92,7 +92,7 @@ export function formatLineChartData(data) {
   })
 
   return {
-    data: [{data: yearData, label: 'Gastos totais em reais'}],
+    data: [{data: yearData, label: 'Gastos totais em reais', color: '#831A0C'},],
     labels: [{scaleType: 'point', data: months}]
   }
 }
